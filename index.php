@@ -21,7 +21,7 @@ input {
 </style>
 </head>
 <body>
-<form action="/action_page.php">
+<form action="/action_page.php" method="GET">
   <fieldset>
     <legend>Form:</legend>
     <label for="fname">First name:</label>
@@ -32,7 +32,7 @@ input {
     <input type="email" id="email" name="email"><br><br>
     <label for="birthday">Birthday:</label>
     <input type="date" id="birthday" name="birthday"><br><br>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" name="submit_record">
   </fieldset>
 </form>
 </body>
